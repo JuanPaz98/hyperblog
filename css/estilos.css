@@ -1,13 +1,32 @@
 body{
     text-align: center;
-    font-family: Courier;
-    color: blue
+    font-family: arial,sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
-.container{
-    width: 70%;
-    padding: 1em;
-    text-align: left;
-    border: 1px solid black;
-    margin: 0 auto;
 
+.container{
+    margin: 0 auto;
+    width: 70%;
+    text-align: left;
+    padding: 1em;
+    border: 1px solid black
+}
+.cabecera{
+    background-color: #33A;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    padding: 0.5em;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0, 0.5);
+
+}
+.cabecera .tagline{
+    font-weight: normal;
+    font-size: 0.8em;
+    padding: 0 0 0 1em;
+}
+.post{
+    font-size: 1em;
 }
