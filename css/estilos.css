@@ -1,5 +1,13 @@
 body{
     text-align: center;
-    font-family: arial,sans-serif;
+    font-family: Courier;
     color: blue
+}
+.container{
+    width: 70%;
+    padding: 1em;
+    text-align: left;
+    border: 1px solid black;
+    margin: 0 auto;
+
 }
